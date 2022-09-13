@@ -20,8 +20,12 @@ int main(void)
 			d += b;
 			b += 3;
 		}
-		if  (c < e && (c % 3) != 0)
+
+		if (c < e && (c % 3) != 0)
 		{
+			d += c;
+			c += 5;
+		}
 		else if (c % 3 == 0)
 		{
 			c += 5;
