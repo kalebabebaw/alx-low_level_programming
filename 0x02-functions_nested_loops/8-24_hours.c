@@ -2,7 +2,7 @@
 
 /**
  * jacj_bauer -prints every minute of the day
- *
+ * Description: jack bauer
  * Return: Always 0.
  */
 
