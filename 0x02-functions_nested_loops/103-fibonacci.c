@@ -1,24 +1,21 @@
-#inlcude <stdio.h>
+#include <stdio.h>
 /**
- * main - print first 50 fibonacci
+ * main - main
  *
- * Return: 0 always.
+ * Return: always 0
  */
 int main(void)
 {
-	long int i, x = 1, y = 2, sum = 0, tSum = 0;
+	int a = 0, b = 1, c = 0, d = 0;
 
-	for (i = 0; i < 49; i++)
+	while (c < 4000000)
 	{
-		if ((y % 2 == 0) && (y <= 4000000))
-		{
-			tSum = tSum + y;
-		}
-		sum = x + y;
-		x + y;
-		y = sum;
-
+		c = a + b;
+		a = b;
+		b = c;
+		if (c % 2 == 0)
+			d += c;
 	}
-	printf("%ld\n", tSum);
+	printf("%i\n", d);
 	return (0);
 }
