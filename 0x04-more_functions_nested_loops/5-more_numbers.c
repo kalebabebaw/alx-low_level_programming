@@ -19,7 +19,7 @@ void more_numbers(void)
 		{
 			if (result < 10)
 			{
-				second_numbers = result;
+				second_number = result;
 			}
 
 			else
@@ -37,4 +37,5 @@ void more_numbers(void)
 		result = 0;
 		_putchar ('\n');
 	}
+
 }
