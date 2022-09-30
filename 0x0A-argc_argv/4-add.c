@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+#include "main.h"
 
 /**
  * check_num - string there are digit
@@ -30,7 +31,8 @@ int check_num(char *str)
 	return (1);
 }
 
-/**main - Print the name of the program
+/**
+ * main - Print the name of the program
  * @argc: Count arguments
  * @argv: Arguments
  *
