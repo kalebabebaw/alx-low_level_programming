@@ -62,6 +62,10 @@ char **strtow(char *str)
 	if (str == NULL || str[0] == '\0')
 		return (NULL);
 
+	b = count_string(str);
+	if (b == 0)
+		return (NULL);
+
 	c = malloc(sizeof(char *) * (b + 1));
 	if (c == NULL)
 		return (NULL);
@@ -85,7 +89,9 @@ char **strtow(char *str)
 		}
 
 		for (z = 0; z < y; z++)
-			c[x][z] = '\0';
+			c[x][z] = str[i++];
+
+		c[x][z] = '\0';
 	}
 	c[x] = NULL;
 
