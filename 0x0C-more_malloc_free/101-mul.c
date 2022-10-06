@@ -2,8 +2,8 @@
 
 /**
  * main - multiplies two positive numbers
- * @argc: n arguments
- * @argv: args
+ * @argc: array of  arguments
+ * @argv: numbers of argument
  *
  * Return: 0
  */
@@ -30,8 +30,8 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-	a = atol(argv[1]) * atol(argv[2]);
-	printf("%lu\n", a);
+	a = atol(argv[1]) *atol(argv[2]);
+	printf("%lu\n",a);
 
 	return (0);
 }
