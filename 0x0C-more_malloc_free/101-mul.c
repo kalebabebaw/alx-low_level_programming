@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 		}
 	}
 	a = atol(argv[1]) *atol(argv[2]);
-	printf("%lu\n",a);
+	printf("%lu\n", a);
 
 	return (0);
 }
